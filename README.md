@@ -8,4 +8,4 @@ Implementação de um simples no seguinte ambiente:
 ## Executando o projeto
 Execute o programa Agente2D.exe na [pasta](https://github.com/tta13/Agent2D/tree/main/UnityProject/Builds/v1.0).
 
-Alternativamente, é possível testar o programa utilizando a [versão recomendada do Unity](https://unity3d.com/unity/whats-new/2020.3.29), abrir o projeto, acessar a cena **Agent2D** e entrar em Playmode.
+Alternativamente, é possível testar o programa utilizando a [versão recomendada do Unity](https://unity3d.com/unity/whats-new/2020.3.29), abrir o projeto, acessar a cena **Agent** e entrar em Playmode.
