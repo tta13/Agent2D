@@ -3,10 +3,13 @@ using UnityEngine.Events;
 
 public class Food : MonoBehaviour
 {
+    [SerializeField] private GameObject particleEffect;
     public UnityEvent onDestroy;
 
-    private void OnDestroy()
+    public void Eat()
     {
+        Instantiate(particleEffect, transform.position, transform.rotation);
         onDestroy.Invoke();
+        Destroy(gameObject);
     }
 }

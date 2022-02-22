@@ -32,11 +32,16 @@ public class Agent : MonoBehaviour
         var foodComponent = collision.GetComponent<Food>();
         if (foodComponent)
         {
-            Debug.Log("Delicious :)");
+            Eat(foodComponent);
+            Debug.Log("Hmm... Delicious :)");
             count++;
             text.text = $"Néctares coletados: {count}";
-            Destroy(foodComponent.gameObject);
         }
+    }
+
+    private void Eat(Food f)
+    {
+        f.Eat();
     }
 
     public void OnPerceiveFood(GameObject food)

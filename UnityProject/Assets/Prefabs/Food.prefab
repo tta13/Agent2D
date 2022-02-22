@@ -111,6 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30c3a307d7bcb8b4980e703706ed9be7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particleEffect: {fileID: 7336267663374145091, guid: 700e39edf6eabcf4b88bd31c704e2ab8, type: 3}
   onDestroy:
     m_PersistentCalls:
       m_Calls: []
