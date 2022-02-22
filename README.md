@@ -1,5 +1,5 @@
 # Agent2D
-Implementação de um simples no seguinte ambiente:
+Implementação de um simples agente no seguinte ambiente:
 1. Uma comida aparece na tela em uma posição aleatória.
 2. O agente percebe a comida no ambiente e se desloca em direção à comida para coletá-la.
 3. Quando ocorre a colisão entre o agente e a comida, a comida desaparece do ambiente e é contabilizada. (A comida foi coletada)
