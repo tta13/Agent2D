@@ -8,6 +8,12 @@ public class Agent : MonoBehaviour
 
     private Transform goal;
     private int count;
+    private SpriteRenderer spriteRenderer;
+
+    private void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
     private void Start()
     {
@@ -25,6 +31,8 @@ public class Agent : MonoBehaviour
         Vector2 position = transform.position;
         position += direction * (speed * Time.fixedDeltaTime);
         transform.position = position;
+
+        spriteRenderer.flipX = direction.x > 0f;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
